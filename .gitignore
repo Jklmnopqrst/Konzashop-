@@ -1,0 +1,8 @@
+# APIS Keys - Do Not Push
+mpesa_config.php
+gemini_config.php
+config.php
+.env
+# Logs
+logs/
+vendor/
