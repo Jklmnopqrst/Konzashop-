@@ -1,5 +1,7 @@
 <?php
-include '/../gemini_config.php';
+if (file_exists(__DIR__ . '/../gemini_config.php')){
+  include __DIR__ . '/../gemini_config.php';
+}
 header('Content-Type: application/json');
 $cfg = __DIR__ . '/../config.php';
 if(!file_exists($cfg)) $cfg = __DIR__ . '/../includes/config.php';
